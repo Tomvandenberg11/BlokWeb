@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://www.bose.nl/
 2. -bron 2-
 3. -...-
 
@@ -60,19 +60,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** In de eerste instantie ga ik voor beide. Als ik in tijdnood kom ga ik voor responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** Ik ga de webisite van Bose namaken: https://www.bose.nl
 
 **Screenshot(s):**
 
 Desktop:
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/bosescreenshot.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/bosescreenshot.jpg)
 
 Mobiel:
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/bosemobiel.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/bosemobiel.png)
 
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdownbose.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Procesverslag/breakdownbose.png)
