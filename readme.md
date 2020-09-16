@@ -43,9 +43,11 @@ Ik ging voor mijn gevoel best wel snel door de website heen en heb daardoor een 
 **Screenshot(s):**
 
 Desktop:
+
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/voortgang1desktop.jpg)
 
-Mobiel: 
+Mobiel:
+
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/voortgang1mobiel.png)
 
 
