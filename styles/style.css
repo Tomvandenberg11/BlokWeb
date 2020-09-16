@@ -3,13 +3,15 @@
     box-sizing:border-box;
     padding: 0;
     margin: 0;
-    transition: .5s;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.absolute {
+    overflow: hidden !important;
+}
 
 /* HEADER */
 
@@ -32,12 +34,65 @@ header img:first-of-type {
     width: 60px;
 }
 
+header img:first-of-type:hover {
+    cursor: pointer;
+}
+
 header img:nth-of-type(2) {
     width: 30%;
 }
 
 header img:nth-of-type(3) {
     width: 60px;
+}
+
+.menu {
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: #191919 !important;
+    z-index: 1 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100vw);
+    transition: transform .5s;
+}
+
+.menu div {
+    width: 80%;
+    display: block;
+    position: relative;
+}
+
+.menu div img {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.menu div ul {
+    padding: 20px 0 50px 0;
+    margin-top: 100px;
+}
+
+.menu div ul li {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.menu div ul li+li {
+    margin-top: 40px;
+}
+
+.toonMenu {
+    transform: translateX(0);
 }
 
 
@@ -133,7 +188,7 @@ section:nth-of-type(3) ul {
 }
 
 section:nth-of-type(3) ul li {
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     /*margin: 0 auto;*/
     flex-grow: 1;
@@ -465,7 +520,14 @@ footer ul:nth-of-type(3) li + li {
       border: none;
       font-weight: 800;
       float: right;
+      transition: .1s;
   }
+
+    section:first-of-type button:hover {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
 
     /* SECTIE 2 */
 
@@ -478,6 +540,10 @@ footer ul:nth-of-type(3) li + li {
 
     section:nth-of-type(3) ul {
         justify-content: space-between;
+    }
+
+    section:nth-of-type(3) ul li:nth-of-type(3) {
+        border-bottom: none;
     }
 
     section:nth-of-type(3) ul li:nth-of-type(even) {
@@ -540,11 +606,18 @@ footer ul:nth-of-type(3) li + li {
         background-color: #000;
         border-radius: 25px;
         padding: 10px 35px;
-        border: none;
         font-weight: 800;
         float: right;
+        transition: .1s;
+        border: 2px solid transparent;
     }
 
+    section:nth-of-type(4) button:hover {
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+        border: 2px solid #000;
+    }
 
     /* SECTIE 5 */
 
@@ -601,6 +674,13 @@ footer ul:nth-of-type(3) li + li {
         padding: 10px 35px;
         border: none;
         font-weight: 800;
+        transition: .1s;
+    }
+
+    section:nth-of-type(6) button:hover {
+        color: #fff;
+        background-color: #000;
+        cursor: pointer;
     }
 
 

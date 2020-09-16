@@ -38,15 +38,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik ging voor mijn gevoel best wel snel door de website heen en heb daardoor een groot deel van de website gemaakt. Ik moet wat meer tijd besteden aan het volledig responsive maken, vooral voor tablet.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+Desktop:
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/voortgang1desktop.jpg)
+
+Mobiel: 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/voortgang1mobiel.png)
+
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Mehmet: 9:20-9:35<br>
+Roos: 9:35-9:50<br>
+Mila: 9:50-10:05<br>
+Tensael: 10:05-10:20<br>
+Tom: 10:20-10:25
 
 ### Verslag van meeting
 
