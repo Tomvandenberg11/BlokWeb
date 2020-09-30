@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.bose.nl/
-2. -bron 2-
+2. Hamburger menu inspiratie: https://codepen.io/designcouch/pen/Atyop
 3. -...-
 
 
@@ -44,11 +44,11 @@ Mobiel:
 
 ### Agenda voor meeting
 
-Mehmet: 9:20-9:35<br>
-Roos: 9:35-9:50<br>
-Mila: 9:50-10:05<br>
-Tensael: 10:05-10:20<br>
-Tom: 10:20-10:25
+Roos: 9:20-9:35<br>
+Mila: 9:35-9:50<br>
+Tensael: 9:50-10:05<br>
+Tom: 10:05-10:20<br>
+Mehmet: 10:20-10:25
 
 ## Voortgang 1 (week 3)
 
