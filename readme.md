@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
-Ik heb sinds het vorige voortgangsgesprek niet heel veel meer aan de website gewertkt. De eerste pagina is nu wel volledig responsive. Ik ga hierna beginnen met het maken van de tweede pagina. Ik denk dat dit minder werk
+Ik heb sinds het vorige voortgangsgesprek niet heel veel meer aan de website gewerkt. De eerste pagina is nu wel volledig responsive. Ik ga hierna beginnen met het maken van de tweede pagina. Ik denk dat dit minder werk
 gaat zijn dan de eerste omdat ik een groot deel van de basis al heb gebruikt voor de eerste pagina.
 
 Desktop:
