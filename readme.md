@@ -30,9 +30,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Ik heb sinds het vorige voortgangsgesprek niet heel veel meer aan de website gewertkt. De eerste pagina is nu wel volledig responsive. Ik ga hierna beginnen met het maken van de tweede pagina. Ik denk dat dit minder werk
+gaat zijn dan de eerste omdat ik een groot deel van de basis al heb gebruikt voor de eerste pagina.
+
+Desktop:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/desktopvoortgang2.jpg)
+
+Mobiel:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/mobielvoortgang2.png)
 
 
+### Agenda voor meeting
+
+Mehmet: 9:20-9:35<br>
+Roos: 9:35-9:50<br>
+Mila: 9:50-10:05<br>
+Tensael: 10:05-10:20<br>
+Tom: 10:20-10:25
 
 ## Voortgang 1 (week 3)
 
@@ -61,7 +77,7 @@ Tom: 10:20-10:25
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+De studentassistenten vertelden mij dat ik goed op weg was. Ze zeiden dat ik als ik meer uitdaging zoek even moet kijken naar SVG animaties. Ik ga dit zeker doen zodrade basis van mijn website af is.
 
 
 

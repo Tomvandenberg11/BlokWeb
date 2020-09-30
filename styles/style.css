@@ -40,11 +40,17 @@ header img:first-of-type:hover {
 
 header img:nth-of-type(2) {
     width: 30%;
+    max-width: 170px;
 }
 
 header img:nth-of-type(3) {
     width: 60px;
 }
+
+.desktopHeader {
+    display: none;
+}
+
 
 .menu {
     height: 100vh !important;
@@ -152,7 +158,7 @@ section:nth-of-type(2) {
     width: 100%;
     background-image: url("../images/banner3.jpg");
     background-repeat: no-repeat;
-    background-size: auto 200px;
+    background-size: auto 300px;
     background-position: 0;
 }
 
@@ -224,7 +230,7 @@ section:nth-of-type(3) ul li button {
     margin: 0 auto;
     width: 100%;
     border-radius: 25px;
-    border: 1px solid #242424;
+    border: 2px solid #242424;
     padding: 10px 35px;
     text-transform: uppercase;
     font-weight: 800;
@@ -240,7 +246,7 @@ section:nth-of-type(3) ul li button:first-of-type {
 section:nth-of-type(3) ul li button:last-of-type {
     background-color: #000000;
     color: #ffffff;
-    border: 1px solid #242424;
+    border: 2px solid #242424;
     margin-bottom: 20px;
 }
 
@@ -301,7 +307,7 @@ section:nth-of-type(5) {
     width: 100%;
     background-image: url("../images/banner2.jpeg");
     background-repeat: no-repeat;
-    background-size: auto 200px;
+    background-size: auto 300px;
     background-position: 0;
 }
 
@@ -361,8 +367,8 @@ section:nth-of-type(7) {
     width: 100%;
     background-image: url("../images/banner1.jpeg");
     background-repeat: no-repeat;
-    background-size: auto 200px;
-    background-position: 0;
+    background-size: auto 300px;
+    background-position: right;
 }
 
 
@@ -391,6 +397,10 @@ footer div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+footer ul li:hover {
+    cursor: pointer;
 }
 
 footer ul:first-of-type {
@@ -458,6 +468,63 @@ footer ul:nth-of-type(3) li + li {
 
 /* MEDIA QUERIES */
 
+@media only screen and (min-width: 1400px) {
+    header {
+        height: 130px;
+    }
+
+    header img:nth-of-type(2) {
+        width: 150px;
+    }
+
+    .mobieleHeader {
+        display: none;
+    }
+
+    .desktopHeader {
+        display: flex;
+        position: relative;
+    }
+
+    .desktopHeader img:first-of-type {
+        width: 150px;
+    }
+
+    .desktopHeader img:nth-of-type(2) {
+        width: 60px;
+        margin-top: -40px;
+    }
+
+    .desktopHeader ul {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .desktopHeader ul li {
+        margin-left: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8em;
+        list-style-type: none;
+        font-weight: 600;
+        letter-spacing: .1em;
+    }
+
+    .desktopHeader ul li:hover {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 772px) {
 
 
@@ -467,9 +534,6 @@ footer ul:nth-of-type(3) li + li {
       width: 70% !important;
   }
 
-  header img:nth-of-type(2) {
-      width: 150px;
-  }
 
 
   /* SECTIE 1 */
@@ -520,7 +584,7 @@ footer ul:nth-of-type(3) li + li {
       border: none;
       font-weight: 800;
       float: right;
-      transition: .1s;
+      transition: .3s;
   }
 
     section:first-of-type button:hover {
@@ -539,7 +603,11 @@ footer ul:nth-of-type(3) li + li {
     /* SECTIE 3 */
 
     section:nth-of-type(3) ul {
-        justify-content: space-between;
+        justify-content: center;
+    }
+
+    section:nth-of-type(3) ul li {
+        max-width: 45%;
     }
 
     section:nth-of-type(3) ul li:nth-of-type(3) {
@@ -556,6 +624,19 @@ footer ul:nth-of-type(3) li + li {
 
     section:nth-of-type(3) ul li button {
         max-width: 300px;
+        transition: .3s;
+    }
+
+    section:nth-of-type(3) ul li button:first-of-type:hover {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    section:nth-of-type(3) ul li button:nth-of-type(2):hover {
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
     }
 
 
@@ -608,7 +689,7 @@ footer ul:nth-of-type(3) li + li {
         padding: 10px 35px;
         font-weight: 800;
         float: right;
-        transition: .1s;
+        transition: .3s;
         border: 2px solid transparent;
     }
 
@@ -633,6 +714,7 @@ footer ul:nth-of-type(3) li + li {
         background-image: url("../images/banner1.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: right;
         display: flex;
         align-items: center;
     }
@@ -674,7 +756,7 @@ footer ul:nth-of-type(3) li + li {
         padding: 10px 35px;
         border: none;
         font-weight: 800;
-        transition: .1s;
+        transition: .3s;
     }
 
     section:nth-of-type(6) button:hover {
