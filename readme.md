@@ -8,7 +8,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.bose.nl/
 2. Hamburger menu inspiratie: https://codepen.io/designcouch/pen/Atyop
-3. -...-
 
 
 
@@ -24,7 +23,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik heb een groot deel van de tweede pagina gemaakt. Deze is ook bijna helemaal responsive. Ik moet alleen het onderste deel nog toevoegen aan de pagina. 
+
+Desktop:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/desktopvoortgang3.jpg)
+
+Mobiel:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/mobielvoortgang3.png)
+
+
+### Agenda voor meeting
+
+Roos: 9:20-9:35<br>
+Mila: 9:35-9:50<br>
+Tensael: 9:50-10:05<br>
+Tom: 10:05-10:20<br>
+Mehmet: 10:20-10:25
+
+### Verslag van meeting
+
 
 
 
