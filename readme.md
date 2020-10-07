@@ -50,6 +50,10 @@ Tensael: 9:50-10:05<br>
 Tom: 10:05-10:20<br>
 Mehmet: 10:20-10:25
 
+### Verslag van meeting
+
+De studentassistent had niks meer toe te voegen op mijn website. Alleen dat ik een nav moest gebruiken in plaats van div's. 
+
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
@@ -77,7 +81,7 @@ Tom: 10:20-10:25
 
 ### Verslag van meeting
 
-De studentassistenten vertelden mij dat ik goed op weg was. Ze zeiden dat ik als ik meer uitdaging zoek even moet kijken naar SVG animaties. Ik ga dit zeker doen zodrade basis van mijn website af is.
+De studentassistenten vertelden mij dat ik goed op weg was. Ze zeiden dat ik als ik meer uitdaging zoek even moet kijken naar SVG animaties. Ik ga dit zeker doen zodra de basis van mijn website af is.
 
 
 
