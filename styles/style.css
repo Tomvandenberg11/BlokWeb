@@ -13,6 +13,10 @@ body {
     overflow: hidden !important;
 }
 
+button:focus {
+    background-color: red;
+}
+
 /* HEADER */
 
 header {
@@ -173,13 +177,18 @@ header div {
     top: 15px;
 }
 
+header a {
+    display: flex;
+    justify-content: center;
+}
+
 header a img:first-of-type {
-    width: 100%;
+    width: 80%;
     max-width: 170px;
 }
 
 .cart {
-    width: 60px !important;
+    width: 40px !important;
 }
 
 .desktopHeader {
@@ -224,6 +233,7 @@ header a img:first-of-type {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    display: block !important;
 }
 
 .menu nav ul li+li {
@@ -343,6 +353,12 @@ section:nth-of-type(3) ul li img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    transition: transform .3s;
+}
+
+section:nth-of-type(3) ul li img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 section:nth-of-type(3) ul li span {
@@ -647,7 +663,7 @@ footer ul:nth-of-type(3) li + li {
         color: #ffffff;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
-        font-size: .8em;
+        font-size: .9em;
         list-style-type: none;
         font-weight: 600;
         letter-spacing: .1em;
@@ -934,6 +950,10 @@ footer ul:nth-of-type(3) li + li {
 
 
 
+
+
+
+
 /* TWEEDE PAGINA */
 
 #products {
@@ -977,7 +997,7 @@ footer ul:nth-of-type(3) li + li {
     width: 100%;
     background-image: url("../images/banner4.jpeg");
     background-repeat: no-repeat;
-    background-size: auto 200px;
+    background-size: auto 300px;
     background-position: 0;
 }
 
@@ -1068,6 +1088,117 @@ footer ul:nth-of-type(3) li + li {
     text-align: right;
 }
 
+#products section:nth-of-type(4) {
+    background-image: none;
+    background-color: transparent;
+    padding: 0 41px;
+    height: 400px;
+}
+
+#products section:nth-of-type(4) div {
+    display: block;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 60px;
+    width: 100%;
+}
+
+#products section:nth-of-type(4) div p {
+    width: 100%;
+    text-transform: none;
+    text-align: left;
+    padding-top: 0;
+    letter-spacing: normal;
+    padding-right: 20px;
+    color: #000;
+    line-height: normal;
+    font-size: 16px;
+}
+
+#products section:nth-of-type(4) div form {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+#products section:nth-of-type(4) div form span {
+    position: relative;
+}
+
+#products section:nth-of-type(4) div form input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+#products section:nth-of-type(4) div form label {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: .3s;
+}
+
+#products section:nth-of-type(4) div form input:focus ~ label,
+#products section:nth-of-type(4) div form input:valid ~ label {
+    top: -30px;
+    left: -1px;
+    color: gray;
+    font-size: 12px;
+}
+
+#products section:nth-of-type(4) div form a {
+    float: left;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    padding-top: 5px;
+}
+
+#products section:nth-of-type(4) div form a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: indianred;
+    transition: all .5s;
+}
+
+#products section:nth-of-type(4) div form a span {
+    z-index: 2;
+    position: relative;
+}
+
+#products section:nth-of-type(4) div form a:hover{
+    color: #fff;
+}
+
+#products section:nth-of-type(4) div form a:hover:after{
+    width: 100%;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 772px) {
@@ -1094,6 +1225,20 @@ footer ul:nth-of-type(3) li + li {
         padding-top: 10px;
         line-height: 45px;
         text-transform: uppercase;
+    }
+
+    #products section:nth-of-type(4) div {
+        display: flex;
+    }
+
+    #products section:nth-of-type(4) div p {
+        width: 50%;
+    }
+
+    #products section:nth-of-type(4) div form {
+        width: 50%;
+        padding-left: 20px;
+        padding-bottom: 20px;
     }
 }
 

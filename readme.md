@@ -1,7 +1,6 @@
 # Procesverslag
 **Auteur:** Tom van den Berg
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
@@ -13,11 +12,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vind dat ik best wel tevreden kan zijn met het eindresultaat. Ik vind dat het best wel een mooie complete website is geworden. Ik had het meest moeite met het weinig gebruiken van divs en classes, omdat ik gewend was om dit veel te gebruiken.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+Desktop:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/desktopvoortgang4.jpg)
+
+Mobiel:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Procesverslag/mobielvoortgang4.png)
 
 
 
@@ -44,7 +49,7 @@ Mehmet: 10:20-10:25
 
 ### Verslag van meeting
 
-
+Vasilis vond dat ik goed bezig was. Ik moest alleen nog kijken naar de focus states en ik moest echte content invoegen, zodat er geen ontwerpproblemen ontstaan. 
 
 
 ## Voortgang 2 (week 5)
