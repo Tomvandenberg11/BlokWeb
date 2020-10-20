@@ -1088,6 +1088,9 @@ footer ul:nth-of-type(3) li + li {
     text-align: right;
 }
 
+
+/* SECTIE 4 */
+
 #products section:nth-of-type(4) {
     background-image: none;
     background-color: transparent;
@@ -1173,6 +1176,7 @@ footer ul:nth-of-type(3) li + li {
     position: relative;
     transition: all .35s;
     padding-top: 5px;
+    margin-bottom: 30px;
 }
 
 #products section:nth-of-type(4) div form a:after {
